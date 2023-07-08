@@ -1,0 +1,106 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+/* Css Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Space Grotesk', sans-serif;
+    box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Colors */
+
+:root {
+    --verde: #B9FF66;
+    --cinza: #F3F3F3;
+    --preto: #191A23;
+    --preto-total: #000000;
+}
+
+/* Estilos */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.positivus--header {
+    padding: 40px 0;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.nav-itens {
+    display: flex;
+    align-items: center;
+}
+
+.nav-itens > ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-itens > ul > li > a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    color: var(--preto-total);
+}
+
+
+.nav-itens > ul > li > button {
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--preto-total);
+    padding: 20px 35px;
+    border-radius: 14px;
+    background-color: transparent;
+    border: 1px solid var(--preto);
+}
+    
+
